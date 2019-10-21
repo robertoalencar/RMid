@@ -1,8 +1,8 @@
 package clientproxy
 
 import (
-	"Plataformas-Exercicio03/RobertoMiddleware/aux"
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/requestor"
+	"RMid/aux"
+	"RMid/distribution/requestor"
 )
 
 type ConversorProxy struct {

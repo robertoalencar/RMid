@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Plataformas-Exercicio03/RobertoMiddleware/services/naming/invoker"
+	"RMid/services/naming/invoker"
 	"fmt"
 )
 

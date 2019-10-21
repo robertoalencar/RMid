@@ -1,7 +1,7 @@
 package marshaller
 
 import (
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/miop"
+	"RMid/distribution/miop"
 	"encoding/json"
 	"log"
 )

@@ -1,7 +1,7 @@
 package naming
 
 import (
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/clientproxy"
+	"RMid/distribution/clientproxy"
 )
 
 type NamingService struct {

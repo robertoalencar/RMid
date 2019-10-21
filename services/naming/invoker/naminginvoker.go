@@ -1,12 +1,12 @@
 package invoker
 
 import (
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/clientproxy"
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/marshaller"
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/miop"
-	"Plataformas-Exercicio03/RobertoMiddleware/infrastructure/srh"
-	"Plataformas-Exercicio03/RobertoMiddleware/services/naming"
-	"Plataformas-Exercicio03/util"
+	"RMid/distribution/clientproxy"
+	"RMid/distribution/marshaller"
+	"RMid/distribution/miop"
+	"RMid/infrastructure/srh"
+	"RMid/services/naming"
+	"RMid/util"
 )
 
 type NamingInvoker struct{}

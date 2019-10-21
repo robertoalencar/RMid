@@ -1,11 +1,11 @@
 package requestor
 
 import (
-	"Plataformas-Exercicio03/RobertoMiddleware/aux"
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/marshaller"
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/miop"
-	"Plataformas-Exercicio03/RobertoMiddleware/infrastructure/crh"
-	"Plataformas-Exercicio03/util"
+	"RMid/aux"
+	"RMid/distribution/marshaller"
+	"RMid/distribution/miop"
+	"RMid/infrastructure/crh"
+	"RMid/util"
 )
 
 type Requestor struct{}

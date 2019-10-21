@@ -1,11 +1,11 @@
 package proxy
 
 import (
-	"Plataformas-Exercicio03/RobertoMiddleware/aux"
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/clientproxy"
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/requestor"
-	"Plataformas-Exercicio03/RobertoMiddleware/repository"
-	"Plataformas-Exercicio03/util"
+	"RMid/aux"
+	"RMid/distribution/clientproxy"
+	"RMid/distribution/requestor"
+	"RMid/repository"
+	"RMid/util"
 )
 
 type NamingProxy struct{}

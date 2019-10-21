@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"Plataformas-Exercicio03/ConversorMoedasApp/meumiddleware/cliente/proxies"
-	"Plataformas-Exercicio03/RobertoMiddleware/distribution/clientproxy"
+	"ConversorMoedasApp/meumiddleware/cliente/proxies"
+	"RMid/distribution/clientproxy"
 	"reflect"
 )
 
