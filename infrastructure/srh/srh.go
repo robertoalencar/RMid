@@ -2,7 +2,6 @@ package srh
 
 import (
 	"encoding/binary"
-	"fmt"
 	"log"
 	"net"
 	"strconv"
@@ -22,14 +21,12 @@ func (srh SRH) Receive() []byte {
 	// create listener
 	ln, err = net.Listen("tcp", srh.ServerHost+":"+strconv.Itoa(srh.ServerPort))
 	if err != nil {
-		fmt.Println("Roberto teste 1")
 		log.Fatalf("SRH:: %s", err)
 	}
 
 	// accept connections
 	conn, err = ln.Accept()
 	if err != nil {
-		fmt.Println("Roberto teste 2")
 		log.Fatalf("SRH:: %s", err)
 	}
 
