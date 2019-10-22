@@ -6,7 +6,7 @@ import (
 	"reflect"
 )
 
-func CheckRepository(proxy clientproxy.ConversorProxy) interface{} {
+func CheckRepository(proxy clientproxy.ClientProxy) interface{} {
 
 	var clientProxy interface{}
 

@@ -36,7 +36,7 @@ func (NamingInvoker) Invoke() {
 			_p1 := miopPacketRequest.Bd.ReqBody.Body[0].(string)
 			_map := miopPacketRequest.Bd.ReqBody.Body[1].(map[string]interface{})
 			_proxyTemp := _map["Proxy"].(map[string]interface{})
-			_p2 := clientproxy.ConversorProxy{TypeName: _proxyTemp["TypeName"].(string), Host: _proxyTemp["Host"].(string), Port: int(_proxyTemp["Port"].(float64)), Id: int(_proxyTemp["Id"].(float64))}
+			_p2 := clientproxy.ClientProxy{TypeName: _proxyTemp["TypeName"].(string), Host: _proxyTemp["Host"].(string), Port: int(_proxyTemp["Port"].(float64)), Id: int(_proxyTemp["Id"].(float64))}
 
 			// dispatch request
 			replyParams[0] = namingImpl.Register(_p1, _p2)
